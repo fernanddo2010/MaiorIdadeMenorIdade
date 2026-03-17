@@ -1,0 +1,43 @@
+/* No maioridade.css */
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Fundo gradiente */
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* Efeito de vidro */
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #764ba2;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px); /* Efeito de levitar */
+    background-color: #f0f0f0;
+}
