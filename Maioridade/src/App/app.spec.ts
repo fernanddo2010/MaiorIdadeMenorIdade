@@ -21,3 +21,7 @@ describe('App', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, MaiorOuMenorDeIdade');
   });
 });
+
+function beforeEach(arg0: () => Promise<void>) {
+  throw new Error('Function not implemented.');
+}
